@@ -1,0 +1,35 @@
+# Ignore compiled binaries and executables
+*.exe
+*.out
+*.o
+
+# Ignore temporary files and directories
+.tmp/
+.temp/
+.cache/
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Node.js modules (if you're working with Node.js)
+node_modules/
+
+# Ignore virtual environment folders (if you're working with Python)
+venv/
+__pycache__/
+
+# Ignore editor/IDE specific files and directories
+.vscode/
+.idea/
+
+# Ignore package-lock.json (if using npm)
+package-lock.json
+
+# Ignore environment-specific configuration files
+.env
+
+# Ignore sensitive or private files
+secrets.json
